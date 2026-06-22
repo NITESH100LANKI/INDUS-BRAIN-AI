@@ -1,0 +1,5 @@
+COMPLIANCE AUDIT REPORT: AUD-PWR-01.
+Facility name: INDUS ENERGY PLANT. Date: 2026-06-15. Lead Auditor: Dave Miller.
+Scope: Process Safety Management review for Unit 1. Checked assets: Boiler BLR-201 and BLR-202.
+Findings checklist: Safety valves certification test expired (FAIL - ASME Section VIII annual test due on 2026-05-20). Emergency procedures (SOP-PWR-01) lacks Lead Engineer sign-off approval signature (FAIL - OSHA-1910.119 checklist gap).
+Gap: Expired pressure certification and unsigned safety guidelines constitute an active process safety deviation.

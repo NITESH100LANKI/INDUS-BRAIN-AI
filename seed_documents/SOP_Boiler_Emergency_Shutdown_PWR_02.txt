@@ -1,0 +1,4 @@
+STANDARD OPERATING PROCEDURE: SOP-PWR-02 (Emergency Boiler Operations).
+Applies to: Steam Boiler BLR-201, BLR-202, BLR-203, and bypass valves VLV-301, VLV-302.
+Procedure detail: Under high bypass steam bleed conditions, operators must engage pressure release valves, close fuel pipelines, and alert the central unit control room. Prior to restarting pressure vessels, ASME Section VIII safety certifications must be verified. Safety checklist signature must be signed by the Operations Lead Engineer to authorize plant startup. Regulation reference: OSHA-1910.119 compliance rule.
+Status: DRAFT REVISION - MISSING SIGNATURE AND LEAD ENGINEER SIGN-OFF.

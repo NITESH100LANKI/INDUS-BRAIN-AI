@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  indus_brain:
+    container_name: indus_brain_ai
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./seed_documents:/app/seed_documents
+      - ./indus_brain.db:/app/indus_brain.db
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+    restart: always

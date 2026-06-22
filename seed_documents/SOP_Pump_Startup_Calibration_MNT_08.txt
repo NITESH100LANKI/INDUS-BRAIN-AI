@@ -1,0 +1,4 @@
+STANDARD OPERATING PROCEDURE: SOP-MNT-08 (Centrifugal Pump Alignment and Vibration Checks).
+Applies to: Centrifugal Feed Pumps PMP-101, PMP-102, PMP-103, PMP-104.
+Procedure detail: Verify inlet suction pipe strainers are clear. Starving the suction inlet initiates vapor bubbles triggering impeller cavitation, bearing wear, and casing seal cracks. Maintain motor shaft coupling alignments within ISO 10816 standards (maximum allowed running vibration threshold is 4.5 mm/s).
+Status: Approved and active. Safety checklists signed by John Doe.

@@ -1,0 +1,4 @@
+STANDARD OPERATING PROCEDURE: SOP-TNK-13 (Five-Year Tank Casing Integrity Audit).
+Applies to: Storage Feed Tanks TNK-601, TNK-602.
+Procedure detail: Scaffolding casing shell walls. Execute ultrasonic thickness thickness gauge inspections along the shell plates. Casing corrosion thinning must remain above minimum API 653 structural limits. Record all thickness gauge measurements in the plant structural ledger.
+Status: Approved. Sign-off completed by Dave Miller.

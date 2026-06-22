@@ -1,0 +1,3 @@
+ROUTINE INSPECTION SHEET: INS-CMP-09.
+Location: Unit 3 Compressor Area. Date: 2026-06-08. Inspector: Sarah Jenkins.
+Asset: Process Air Compressor CMP-501. Findings: Gasket shows minor oil staining, oil levels are compliant. Air inlet filter replaced. Unit is operating within limits. Compliant.

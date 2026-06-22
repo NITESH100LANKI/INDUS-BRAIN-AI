@@ -1,0 +1,4 @@
+COMPLIANCE AUDIT REPORT: AUD-MNT-10.
+Facility name: INDUS ENERGY PLANT. Date: 2026-06-18. Auditor: John Doe.
+Scope: Rotating equipment safety. Checked assets: Feed Pump PMP-101 and PMP-102.
+Findings: Critical vibration limit exceeded. Vibration telemetry logs recorded peak vibration readings at 12.4 mm/s, tripping active DCS alarms. Exceeds ISO 10816 machinery guidelines (FAIL - ISO compliance gap).

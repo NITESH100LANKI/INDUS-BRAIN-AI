@@ -1,0 +1,4 @@
+COMPLIANCE AUDIT REPORT: AUD-ENV-06.
+Facility name: INDUS ENERGY PLANT. Date: 2026-06-10. Auditor: Sarah Jenkins.
+Scope: Stack Emissions stack exhaust limits check. Checked unit: Unit 2 Reformer Boiler BLR-201 stack.
+Findings: Monthly stack exhaust monitoring logs showed NOx and SO2 emission parameters exceeded carbon limits. EPA Clean Air Act Section 112r violation (FAIL - EPA compliance gap). Action: Recalibrate fuel burners.

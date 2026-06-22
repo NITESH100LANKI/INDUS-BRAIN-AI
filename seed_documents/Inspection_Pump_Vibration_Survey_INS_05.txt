@@ -1,0 +1,3 @@
+VIBRATION TELEMETRY SURVEY: INS-VIB-05.
+Location: Pump House A. Date: 2026-05-14. Lead Inspector: John Doe.
+Asset: Centrifugal Pump PMP-101. Findings: Shaft vibration peaked at 12.4 mm/s (limits are 4.5 mm/s ISO 10816). Loud rattling noise suggests localized suction flow restriction. Root cause: Impeller cavitation due to suction head pressure drops. Shaft bearings show severe wear and coupling seal has a slow grease leak.
