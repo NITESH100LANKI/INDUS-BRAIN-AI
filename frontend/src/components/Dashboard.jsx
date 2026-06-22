@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ShieldCheck, AlertTriangle, FileText, Database, ArrowRight, ShieldAlert, FileSpreadsheet, BookOpen, Layers, CheckSquare, XCircle, Printer } from 'lucide-react';
+import { ShieldCheck, AlertTriangle, FileText, Database, ArrowRight, ShieldAlert, FileSpreadsheet, BookOpen, Layers, CheckSquare, XCircle, Printer, Activity } from 'lucide-react';
 
 export default function Dashboard({ setActiveTab, setSelectedAssetTag }) {
   const [summary, setSummary] = useState(null);
