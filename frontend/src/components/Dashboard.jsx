@@ -13,12 +13,12 @@ export default function Dashboard({ setActiveTab, setSelectedAssetTag }) {
       try {
         setLoading(true);
         // Fetch dashboard summary
-        const sumRes = await fetch('http://localhost:8000/api/dashboard/summary');
+        const sumRes = await fetch('/api/dashboard/summary');
         const sumData = await sumRes.json();
         setSummary(sumData);
 
         // Fetch asset risk list
-        const assetRes = await fetch('http://localhost:8000/api/assets/risk');
+        const assetRes = await fetch('/api/assets/risk');
         const assetData = await assetRes.json();
         setAssets(assetData);
       } catch (err) {

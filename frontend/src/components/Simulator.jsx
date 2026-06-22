@@ -10,7 +10,7 @@ export default function Simulator() {
   useEffect(() => {
     async function fetchAssets() {
       try {
-        const res = await fetch('http://localhost:8000/api/assets/risk');
+        const res = await fetch('/api/assets/risk');
         const data = await res.json();
         setAssets(data);
         if (data.length > 0) {
@@ -31,7 +31,7 @@ export default function Simulator() {
     // Simulate delay for AI graph reasoning visualization
     setTimeout(async () => {
       try {
-        const res = await fetch('http://localhost:8000/api/simulator/predict', {
+        const res = await fetch('/api/simulator/predict', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ asset_tag: selectedAsset })

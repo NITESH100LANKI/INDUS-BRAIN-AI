@@ -24,7 +24,7 @@ export default function GraphViewer() {
     try {
       setLoading(true);
       setDrilldownActive(false);
-      const res = await fetch('http://localhost:8000/api/graph/data');
+      const res = await fetch('/api/graph/data');
       const data = await res.json();
       setGraphData(data);
       initializeSimulation(data.nodes, data.links);
@@ -39,7 +39,7 @@ export default function GraphViewer() {
     try {
       setLoading(true);
       setDrilldownActive(true);
-      const res = await fetch(`http://localhost:8000/api/graph/drilldown?node_id=${encodeURIComponent(nodeId)}`);
+      const res = await fetch(`/api/graph/drilldown?node_id=${encodeURIComponent(nodeId)}`);
       const data = await res.json();
       initializeSimulation(data.nodes, data.links);
     } catch (err) {

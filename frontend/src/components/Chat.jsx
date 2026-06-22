@@ -52,7 +52,7 @@ export default function Chat() {
     setLoading(true);
 
     try {
-      const res = await fetch('http://localhost:8000/api/copilot/chat', {
+      const res = await fetch('/api/copilot/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ session_id: sessionId, message: msgText })

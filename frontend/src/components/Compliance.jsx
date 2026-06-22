@@ -19,7 +19,7 @@ export default function Compliance() {
   const fetchCompliance = async () => {
     try {
       setLoading(true);
-      const res = await fetch('http://localhost:8000/api/compliance/summary');
+      const res = await fetch('/api/compliance/summary');
       const data = await res.json();
       setSummary(data);
     } catch (err) {

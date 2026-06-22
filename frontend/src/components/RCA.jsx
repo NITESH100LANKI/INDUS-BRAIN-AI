@@ -25,11 +25,11 @@ export default function RCA({ selectedAssetTag, setSelectedAssetTag }) {
   const fetchAssetsAndLessons = async () => {
     try {
       setLoading(true);
-      const assetRes = await fetch('http://localhost:8000/api/assets/risk');
+      const assetRes = await fetch('/api/assets/risk');
       const assetData = await assetRes.json();
       setAssets(assetData);
       
-      const lessonRes = await fetch('http://localhost:8000/api/lessons-learned');
+      const lessonRes = await fetch('/api/lessons-learned');
       const lessonData = await lessonRes.json();
       setLessons(lessonData);
       
@@ -45,13 +45,13 @@ export default function RCA({ selectedAssetTag, setSelectedAssetTag }) {
 
   const fetchRCAReport = async (tag) => {
     try {
-      const res = await fetch(`http://localhost:8000/api/assets/rca/${tag}`);
+      const res = await fetch(`/api/assets/rca/${tag}`);
       const data = await res.json();
       setRcaReport(data);
 
       // Fetch neighbors for graph relations section
       const nid = tag.startsWith("PMP-") ? `EQUIPMENT:${tag}` : tag.startsWith("BLR-") ? `EQUIPMENT:${tag}` : `EQUIPMENT:${tag}`;
-      const graphRes = await fetch(`http://localhost:8000/api/graph/drilldown?node_id=${encodeURIComponent(nid)}`);
+      const graphRes = await fetch(`/api/graph/drilldown?node_id=${encodeURIComponent(nid)}`);
       const graphData = await graphRes.json();
       
       // Filter out self node and grab neighbors name & type

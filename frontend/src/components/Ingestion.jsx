@@ -15,7 +15,7 @@ export default function Ingestion() {
 
   const fetchDocuments = async () => {
     try {
-      const res = await fetch('http://localhost:8000/api/documents');
+      const res = await fetch('/api/documents');
       const data = await res.json();
       setDocuments(data);
       if (data.length > 0 && !selectedDoc) {
@@ -30,7 +30,7 @@ export default function Ingestion() {
     setSelectedDoc(doc);
     try {
       // Extract entities/relations matching document
-      const graphRes = await fetch('http://localhost:8000/api/graph/data');
+      const graphRes = await fetch('/api/graph/data');
       const graphData = await graphRes.json();
       
       // Filter graph data extracted from this document ID
@@ -116,7 +116,7 @@ export default function Ingestion() {
     formData.append("file", file);
 
     try {
-      const res = await fetch('http://localhost:8000/api/documents/upload', {
+      const res = await fetch('/api/documents/upload', {
         method: 'POST',
         body: formData,
       });
